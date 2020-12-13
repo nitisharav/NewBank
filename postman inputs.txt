@@ -1,0 +1,70 @@
+1.(a)http://localhost:8086/openAccount
+
+
+ {
+        "accountno": "1112",
+        "adharcard": "111112",
+        "adminremark": "Lack of Doc",
+        "approvedbyadmin": "BRejected",
+        "dob": "15-08-1947",
+        "accountbalance": 6000,
+        "email": "shubham@gmail.com",
+        "fathersname": "G",
+        "firstname": "Shubham",
+        "grossannualincome": "8 Lac",
+        "lastname": "Gupta",
+        "mobileno": "9876543210",
+        "occupationtype": "Software Engineer",
+        "permaddressline1": "Mumbai",
+        "permaddressline2": "Mumbai",
+        "permcity": "Mumbai",
+        "permstate": "Maharashtra",
+        "permzipcode": "421204",
+        "presaddressline1": "Mumbai",
+        "presaddressline2": "Mumbai",
+        "prescity": "Mumbai",
+        "presstate": "Maharashtra",
+        "preszipcode": "421204",
+        "sourceofincome": "Full Time Job"
+    }
+  
+
+
+1.(b)http://localhost:8086/viewAllAccounts
+
+1.(c) http://localhost:8086/adminApproval
+
+{   "approvedByAdmin":"Verifiedggggg",
+  "adminRemark":"lacking",
+  "accountNumber":"'222'"
+  
+
+}
+
+1.(d) http://localhost:8086//viewUserDetails/334
+
+
+
+3. http://localhost:8086/registerAdmin
+
+
+
+{
+     "adminuserid": "9",
+     "adminname" : "abc1",
+     "adminpassword"  :  "shubham@3" 
+}
+
+
+4. http://localhost:8086/loginAdmin
+
+{   "userId":"1",
+     "password":"Nitish@04"
+  
+
+}
+
+5.  http://localhost:8086/getPayeeNameAndAccountNo/222
+
+6. http://localhost:8086/accountstatement/222
+
